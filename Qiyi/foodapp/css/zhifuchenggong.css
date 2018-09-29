@@ -1,0 +1,167 @@
+/*
+* @Author: wp
+* @Date:   2018-07-31 19:54:43
+* @Last Modified by:   wp
+* @Last Modified time: 2018-08-03 15:52:45
+*/
+*{
+	/* 外边距 */
+	margin: 0;
+	/* 内边距 */
+	padding: 0;
+	/* 去掉列表的标识样式 */
+	list-style: none;
+	/* 字体 */
+	font-family: "微软雅黑","宋体","苹方";
+	/* 盒子大小 */
+	box-sizing: border-box;
+	/* 去掉下划线 */
+	text-decoration: none;
+	/* 文字样式：正常 */
+	font-style: normal;
+} 
+body{
+	background: linear-gradient(to bottom, #58b0fa,#0775d2);
+}
+header{
+	padding: 0.36rem 0.3rem;
+	display: flex;
+	flex-direction: column;
+    justify-content:end;
+    /* background: #299bfc; */
+}
+header .fanghui{
+	display: block;
+	width:0.4rem;
+	height: 0.4rem;
+	border-radius: 0.2rem;
+	border: 0.01rem solid #fff;
+	box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+	/* background: #00b7ee; */
+	text-align: center;
+	line-height: 0.4rem;
+	margin-bottom: 0.3rem;
+}
+header .fanghui i{
+	display: block;
+}
+header span{
+	font-size: 0.6rem;
+	color: #fff;
+}
+nav{
+	padding: 0 0.3rem;
+	/* background: #299bfc; */
+	display: flex;
+	flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+nav h3{
+	font-size: 0.42rem;
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 0.26rem;
+}
+nav h4{
+	font-size: 0.3rem;
+	color: #fff;
+	font-weight: 300;
+	margin-bottom: 0.26rem;
+}
+nav h5{
+	font-size: 0.26rem;
+	color: #fff;
+	font-weight: 400;
+}
+main{
+	display: flex;
+	flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+main .yuan{
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 1rem white;
+    margin-top: 1.06rem;
+    position: relative;
+}
+main .yuan i{
+	display: block;
+	text-align: center;
+	line-height: 2.7rem;
+	font-size: 1.2rem;
+	color: #299bfc;
+}
+main .yuan .a{
+    height: 0.3rem;
+    width: 0.3rem;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    bottom: 0 ;
+    left: -0.3rem;
+}
+main .yuan .b{
+    height: 0.3rem;
+    width: 0.3rem;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    bottom: 0 ;
+    right: -0.3rem;
+}
+main .yuan .c{
+    height: 0.3rem;
+    width: 0.3rem;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: -0.5rem ;
+    right: 1.2rem;
+}
+footer{
+	width: 100%;
+	height: 5.52rem;
+	/* background: rgba(255, 255, 255, 0.5); */
+    overflow: hidden;
+}
+footer .yuan{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    background: #fff;
+    margin-top:  1.2rem;
+    margin-left: -0.7rem;
+    position: relative;
+}
+footer .yuan .one{
+	display: block;
+	height: 0.96rem;
+	width: 2.6rem;
+	border-radius: 1.3rem;
+	background: #299bfc;
+	font-size: 0.28rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.96rem;
+    position: absolute;
+    left: 1rem;
+    top: 1.8rem;
+}
+footer .yuan .two{
+	height: 0.96rem;
+	width: 2.6rem;
+	border-radius: 1.3rem;
+	background: #1cf69c;
+	font-size: 0.28rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.96rem;
+    position: absolute;
+    right: 1rem;
+    top: 1.8rem;
+}

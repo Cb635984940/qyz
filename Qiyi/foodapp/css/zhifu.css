@@ -1,0 +1,299 @@
+/*
+* @Author: wp
+* @Date:   2018-07-31 08:08:18
+* @Last Modified by:   wp
+* @Last Modified time: 2018-08-03 13:49:43
+*/
+*{
+	/* 外边距 */
+	margin: 0;
+	/* 内边距 */
+	padding: 0;
+	/* 去掉列表的标识样式 */
+	list-style: none;
+	/* 字体 */
+	font-family: "微软雅黑","宋体","苹方";
+	/* 盒子大小 */
+	box-sizing: border-box;
+	/* 去掉下划线 */
+	text-decoration: none;
+	/* 文字样式：正常 */
+	font-style: normal;
+} 
+body{
+	background: #e1effa;
+}
+header{
+	padding: 0.36rem 0.3rem;
+}
+header .fanghui{
+	display: block;
+	width:0.4rem;
+	height: 0.4rem;
+	border-radius: 0.2rem;
+	border: 0.01rem solid #999;
+	box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+	background: #00b7ee;
+}
+header .fanghui .iconfont{
+	display: block;
+	text-align: center;
+	line-height: 0.4rem;
+	/* background: blue; */
+	color: #fff;
+}
+nav{ 
+	padding:0 0.3rem;
+}
+nav .shang{
+	font-size: 0.52rem;
+	color: #00b7ee;
+}
+nav .zhong{
+	display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+nav .zhong .zuo{
+	display: flex;
+	flex-direction: row;
+   /*  justify-content:space-between; */
+    align-items: center;
+    float: left;
+    width:3rem;
+}
+nav .zhong .zuo .yuana{
+    height: 0.1rem;
+    width:  0.1rem;
+    border-radius: 0.05rem;
+    background: blue;
+}
+nav .zhong .zuo .yuanaa{
+    height: 0.1rem;
+    width: 0.1rem;
+    border-radius: 0.05rem;
+    background: red;
+    margin-left: 0.05rem;
+}
+nav .zhong .zuo h5{
+	font-size: 0.2rem;
+    color: #00b7ee;
+    margin-left: 0.1rem;
+}
+nav .zhong .you{
+	display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    float: left;
+}
+nav .zhong .you b{
+	font-size: 0.14rem;
+    color: #4974f1;
+}
+nav .zhong .you span{
+	font-size: 0.3rem;
+    color: #4974f1;
+    font-weight: 500;
+}
+nav .xia{
+	margin-top: 0.24rem;
+	display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+nav .xia .zuo{
+	display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+   /*  float: left; */
+    margin-left: 2.5rem;
+}
+nav .xia .zuo h3{
+	display: block;
+	width: 0.56rem;
+	height: 0.26rem;
+	border-radius: 0.13rem;
+	background: blue;
+	color: #fff;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.26rem;
+	margin-left: 0.14rem;
+}
+nav .xia .zuo h4{
+	color: #999;
+	font-size: 0.16rem;
+	margin-left: 0.14rem;
+}
+nav .xia .zuo span{
+	color: #000;
+	font-size: 0.16rem;
+	margin-left: 0.14rem;
+}
+nav .xia .you{
+	display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    float: left;
+    margin-left: 0.2rem;
+}
+nav .xia .you h3{
+	display: block;
+	width: 0.56rem;
+	height: 0.26rem;
+	border-radius: 0.13rem;
+	background: blue;
+	color: #fff;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.26rem;
+	margin-left: 0.14rem;
+}
+nav .xia .you h4{
+	color: #999;
+	font-size: 0.16rem;
+	margin-left: 0.14rem;
+}
+nav .xia .you span{
+	color: #000;
+	font-size: 0.16rem;
+	margin-left: 0.14rem;
+}
+main{
+	width: 6.32rem;
+	height: 4rem;
+	border-radius: 0.5rem;
+	background: #ffb628;
+	margin: 0 auto;
+	margin-top: 0.84rem;
+	padding: 0 0.54rem;
+	padding-top: 0.54rem;
+}
+main .shang{
+    display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 0.24rem;
+    color: #fff;
+}
+main .shang .tutu{
+	height: 0.5rem;
+	width: 2.1rem;
+	display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+main .shang .tutu i{
+	font-size: 0.5rem;
+    color: #fff;
+}
+main .shang .tutu h3{
+	font-size: 0.24rem;
+    color: #fff;
+}
+main .shang i{
+	font-size: 0.5rem;
+    color: #fff;
+}
+main .zhong{
+	display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 1.62rem;
+    margin-top: 0.2rem;
+}
+main .zhong .left{
+	display: flex;
+	flex-direction: column;
+    justify-content:end;
+    align-items: center;
+}
+main .zhong .left h3{
+	font-size: 0.14rem;
+    color: #fff;
+}
+main .zhong .left h4{
+	font-size: 0.14rem;
+    color: #fff;
+}
+main .zhong .right h3{
+    font-size: 0.3rem;
+    color: #fff;
+}
+main .xia{
+	display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 0.1rem;
+}
+main .xia h3{
+	font-size: 0.32rem;
+    color: #fff;
+}
+main .xia h4{
+	font-size: 0.32rem;
+    color: #999;
+}
+footer{
+	width: 100%;
+	height: 6.4rem;
+	background: rgba(255, 255, 255, 0.5);
+	margin-top: -1.2rem;
+    overflow: hidden;
+}
+footer .yuan{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    background: #00b7ee;
+    margin-top:  1.2rem;
+    margin-left: -0.7rem;
+    position: relative;
+
+}
+footer .yuan h3{
+	font-size: 0.26rem;
+    color: #fff;
+    position: absolute;
+    left: 3.2rem;
+    top: 1rem;
+}
+footer .yuan img{
+    height: 1.9rem;
+    width: 1.9rem;
+    position: absolute;
+    left: 3.4rem;
+    top: 1.6rem;
+}
+footer .yuan h4{
+	font-size: 0.26rem;
+    color: #999;
+    position: absolute;
+    left: 3.6rem;
+    top: 3.6rem;
+}
+footer .xia{
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 4.4rem;
+    top: 4rem;
+}
+footer .xia .yuann{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: #fff;
+}

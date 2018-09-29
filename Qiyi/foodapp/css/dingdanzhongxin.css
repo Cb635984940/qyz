@@ -1,0 +1,334 @@
+/*
+* @Author: wp
+* @Date:   2018-08-02 17:44:22
+* @Last Modified by:   wp
+* @Last Modified time: 2018-08-03 22:12:34
+*/
+*{
+	/* 外边距 */
+	margin: 0;
+	/* 内边距 */
+	padding: 0;
+	/* 去掉列表的标识样式 */
+	list-style: none;
+	/* 字体 */
+	font-family: "微软雅黑","宋体","苹方";
+	/* 盒子大小 */
+	box-sizing: border-box;
+	/* 去掉下划线 */
+	text-decoration: none;
+	/* 文字样式：正常 */
+	font-style: normal;
+}
+header{
+    background: #40b8ea;
+    padding: 0.3rem 0.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 1.73rem;
+}
+header .zuo{
+	width: 0.48rem;
+	height: 0.48rem;
+	border-radius: 50%;
+	background: #47a8fa;
+}
+header .zuo i{
+	font-size: 0.3rem;
+	color: #fff;
+	display: block;
+	text-align: center;
+	line-height: 0.48rem;
+}
+header .zhong{
+	display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+header .zhong h3{
+	font-size: 0.28rem;
+	color: #fff;
+}
+header .zhong h4{
+	font-size: 0.2rem;
+	color: #fff;
+}
+header .you{
+	width: 0.48rem;
+	height: 0.48rem;
+	border-radius: 50%;
+	background: #47a8fa;
+}
+header .you i{
+	font-size: 0.3rem;
+	color: #fff;
+	display: block;
+	text-align: center;
+	line-height: 0.48rem;
+}
+nav{
+	padding: 0 0.3rem;
+	margin-top: -0.4rem;
+	
+}
+nav .list{
+	display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+nav .left{
+	border-radius:0.2rem;
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background: #fff;
+    padding: 0.2rem 0.1rem;
+    background: #fff;
+    box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3); 
+}
+nav .left img{
+	height: 0.9rem;
+	width: 0.9rem;
+}
+nav .left .you{
+	display: flex;
+	flex-direction: column;
+    justify-content:space-between;
+    margin-left: 0.1rem;
+}
+nav .left .you h3{
+    font-size: 0.22rem;
+	color: #000;
+	font-weight: 400;
+}
+nav .left .you h4{
+    font-size: 0.18rem;
+	color: #a3a3a3;
+	font-weight: 400;
+}
+nav .left .you h5{
+    font-size: 0.16rem;
+	color: #cecece;
+	font-weight: 400;
+}
+nav .right{
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background: #fff;
+    border-radius:0.2rem;
+    padding: 0.2rem 0.1rem;
+    background: #fff;
+    box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+    /* margin-left:0.9rem; */ 
+}
+nav .right img{
+	height: 0.9rem;
+	width: 0.9rem;
+}
+nav .right .you{
+	display: flex;
+	flex-direction: column;
+    justify-content:space-between;
+    margin-left: 0.3rem;
+}
+nav .right .you h3{
+    font-size: 0.22rem;
+	color: #000;
+	font-weight: 400;
+}
+nav .right .you h4{
+    font-size: 0.18rem;
+	color: #a3a3a3;
+	font-weight: 400;
+}
+nav .right .you h5{
+    font-size: 0.16rem;
+	color: #cecece;
+	font-weight: 400;
+}
+main{
+	padding: 0 0.3rem;
+	margin-top: 0.6rem;
+}
+main .shang{
+	height: 0.5rem;
+	border-left: 2px solid #40b8ea;
+}
+main .shang h3{
+	font-size: 0.24rem;
+	color: #000;
+	font-weight: 500;
+}
+main .shang h4{
+	font-size: 0.18rem;
+	color: #000;
+	font-weight: 400;
+}
+main .xia{
+    display: flex;
+	flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 0.36rem;
+}
+main .xia .list{
+	display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 1.56rem;
+    width: 100%;
+    box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+    margin-top: 0.36rem;
+    padding: 0 0.38rem;
+    border-radius:0.2rem;
+    position: relative;
+}
+main .xia .list img{
+	height: 0.94rem;
+	width: 0.94rem;
+	z-index: 2;
+}
+main .xia .list .du{
+	height: 1.56rem;
+	width: 0.94rem;
+	background: #299bfc;
+	border-radius:0.2rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+main .xia .list .zhong{
+	display: flex;
+	flex-direction: column;
+    justify-content:space-between;
+    width: 5.16rem;
+}
+main .xia .list .zhong .one{
+	display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+main .xia .list .zhong .one h3{
+	font-size: 0.24rem;
+	color: #000;
+	font-weight: 400;
+}
+main .xia .list .zhong .one h4{
+	font-size: 0.18rem;
+	color: #000;
+	font-weight: 400;
+}
+main .xia .list .zhong h5{
+	font-size: 0.18rem;
+	color: #000;
+	font-weight: 400;
+}
+main .xia .list .zhong .two{
+	display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 3.5rem;
+
+}
+main .xia .list .zhong .two span{
+	height: 0.28rem;
+	width: 0.62rem;
+	border-right: 0.14rem;
+	background: #ffff00;
+	font-size: 0.2rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.28rem;
+}
+main .xia .list .zhong .two b{
+	height: 0.28rem;
+	width: 0.62rem;
+	border-right: 0.14rem;
+	background: #40b8ea;
+	font-size: 0.2rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.28rem;
+}
+main .xia .list .zhong .three{
+	display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+main .xia .list .zhong .three h3{
+	font-size: 0.14rem;
+	color: #000;
+	font-weight: 400;
+}
+main .xia .list .zhong .three .last{
+    display: flex;
+	flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+main .xia .list .zhong .three .last span{
+    font-size: 0.3rem;
+	color: #40b8ea;
+	font-weight: 400;
+}
+main .xia .list .zhong .three .last b{
+    font-size: 0.14rem;
+	color: #000;
+	font-weight: 400;
+}
+footer{
+	width: 100%;
+    height: 1rem;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 -0.15rem 0.3rem rgba(0, 0, 0, 0.1);
+    /* padding: 0.2rem 0; */
+}
+footer  a{
+	width: 0.8rem;
+	height: 0.8rem;
+	border-radius: 50%;
+	background: #e1d5d5;
+	/* border-right: 0.1rem solid #000; */
+	/* display: flex; */
+
+	/* flex-direction: column;
+	align-items: center; */
+	color: #ea6621;
+	margin-top: 0.1rem;
+	/* border-radius: 50%;
+	background: pink;
+	margin-top: 0.1rem; */
+}
+footer .list:nth-child(3){
+	background: blue;
+}
+footer .list i{
+	font-size: 0.4rem;
+    display: block;
+	text-align: center;
+	line-height: 0.8rem;
+	color: #5a5555;
+}
+footer .list:nth-child(3) i{
+	color: white;
+}

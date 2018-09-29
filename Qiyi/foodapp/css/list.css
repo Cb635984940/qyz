@@ -1,0 +1,434 @@
+/*
+* @Author: wp
+* @Date:   2018-07-25 15:40:04
+* @Last Modified by:   wp
+* @Last Modified time: 2018-08-04 12:01:20
+*/
+*{
+	/* 外边距 */
+	margin: 0;
+	/* 内边距 */
+	padding: 0;
+	/* 去掉列表的标识样式 */
+	list-style: none;
+	/* 字体 */
+	font-family: "微软雅黑","宋体","苹方";
+	/* 盒子大小 */
+	box-sizing: border-box;
+	/* 去掉下划线 */
+	text-decoration: none;
+	/* 文字样式：正常 */
+	font-style: normal;
+} 
+header{
+	width: 100%;
+	height: 4.94rem;
+	background: #2fa3fc;
+}
+header .shang{
+	width: 100%;
+	height: 0.9rem;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+header .shang .icon-shoucang{
+	margin-left: 4rem;
+}
+header .shang i{
+	display: block;
+    font-size: 0.4rem;
+    color: #ffffff;
+}
+header .zhong{
+	height: 1.6rem;
+	width: 100%;
+	/* background: pink; */
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+header .zhong .beijing{
+	height: 1.6rem;
+	width: 1.6rem;
+	background: #299bfc;
+	box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+	transform: rotate(45deg);
+    position: absolute;
+    left: 2.95rem;
+    top: -0.05rem;
+}
+header .zhong img{
+	z-index: 2;
+}
+header .xia{
+	height: 2.4rem;
+	width: 100%;
+	/* background: yellow; */
+	padding-top: 0.46rem;
+	padding-bottom: 0.22rem;
+}
+header .xia h3{
+	font-size: 0.3rem;
+	color: white;
+	text-align: center;
+	padding-bottom: 0.1rem;
+}
+header .xia .weizhi{
+	font-size: 0.24rem;
+	color: white;
+	text-align: center;
+}
+header .xia .weizhi i{
+	font-size: 0.24rem;
+	margin: 0 auto ;
+}
+header .xia .sige{
+	width: 5.5rem;
+	height: 0.4rem;
+	/* background: pink; */
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between ; 
+	align-items:center;
+	margin-top: 0.1rem
+}
+header .xia .sige span{
+	font-size: 0.2rem;
+	color: white;
+	display: block; 
+	font-weight: 400;
+}
+header .xia .sige b{
+	font-size: 0.2rem;
+	color: white;
+	font-weight: 400;
+}
+header .xia .sige .km{
+	width: 1rem;
+	height: 0.4rem;
+	background: #299bfc;
+	border-radius: 0.2rem;
+	border: 0.04rem solid white;
+	text-align: center;
+	line-height: 0.32rem;
+}
+header .xia .sige .song{
+    width: 1rem;
+	height: 0.4rem;
+	background: white;
+	border-radius: 0.2rem;
+	color: blue;
+	text-align: center;
+	line-height: 0.4rem;
+}
+header .xia .five{
+	width: 100%;
+	height: 0.4rem;
+	/* background: orange; */
+	margin-top: 
+}
+header .xia .five span{
+	display: block;
+	font-size: 0.15rem;
+	float: left;
+	margin-left: 1.6rem;
+	margin-top: 0.1rem;
+	color: white;
+}
+header .xia .five b{
+	display: block;
+	font-size: 0.3rem;
+	float: left;
+	margin-left: 2rem;
+	color: yellow;
+
+}
+.black{
+	height: 0.9rem;
+	width: 100%;
+	background: #4c554d;
+	padding: 0  1.2rem;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: center;	  
+}
+.black .yuan{
+    height: 0.4rem;
+    width: 0.4rem;
+    border-radius: 50%;
+    background: #fff;
+    border: 0.15rem solid #27d7e7;
+}
+.black  h4{
+	font-size: 0.22rem;
+	color: #ffffff;
+	font-weight: 400;
+}
+main{
+	width: 100%;
+	height: auto;
+	/* background: red; */
+	position: relative;
+}
+main .shang{
+	height: 1.44rem;
+	width: 100%;
+	/* background: yellow; */
+	padding: 0 1.1rem; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    align-items: center;	  	  
+}
+main .shang .ban{
+	display: block;
+	height: 0.56rem;
+	width: 1.8rem;
+	border-radius: 0.28rem;
+	background: #30a4fc;
+	box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.56rem;
+	color: #ffffff;
+}
+main .shang .yuan{
+	display: block;
+	height: 0.56rem;
+	width: 1.8rem;
+	border-radius: 0.28rem;
+	background: #ffffff;
+	box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.56rem;
+	color: #000000;
+}
+main .left{
+	width:1.58rem;
+	height:5rem;
+	background: #5b6662;
+	position: absolute;
+	left: 0;
+	top: 1.43rem;
+	overflow: scroll;
+}
+main .left .listz{
+	display: block;
+	font-size: 0.24rem;
+	color: #fff;
+	height: 0.54rem;
+	width: 1.18rem;
+	border-radius: 0.3rem;
+	border: 0.01rem solid blue;
+	text-align: center;
+    line-height: 0.54rem;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+}
+main .left .listz:nth-child(2){
+	background: #30a4fc;
+	border: 0.01rem solid #fff;
+}
+main .left .listz:active{
+	background: #30a4fc;
+}
+main .right{
+	width: 5.66rem;
+	height: 5rem;
+	/* background: red; */
+	position: absolute;
+	right: 0;
+	top: 1.3rem;
+	overflow: scroll;
+	
+}
+main .right .listr{
+	width:5.62rem;
+	height:1.48rem;
+	/* background: blue ; */
+	box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+	border-radius: 0.2rem;
+    margin-bottom: 0.3rem;
+    padding-left: 0.16rem;
+    padding-right:  0.16rem;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+main .right .listr:nth-child(8){
+	margin-bottom: 0;
+}
+main .right .listr .tu img{
+	width: 1.14rem;
+	height: 1.14rem;
+	display: block;
+}
+main .right .listr .shuzi{
+	/* background: pink; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: -1.4rem;
+}
+main .right .listr .shuzi h1{
+	font-size: 0.24rem;
+	color: #000;
+}
+main .right .listr .shuzi h2{
+	font-size: 0.22rem;
+	color: #e1f038;
+}
+main .right .listr .shuzi .ram{
+	/* background: orange; */ 
+	display: flex;
+	align-items: center;
+}
+main .right .listr .shuzi .ram span{
+	font-size: 0.2rem;
+	color: #299bfc;
+}
+main .right .listr .shuzi .ram b{
+	font-size: 0.16rem;
+	color: #000000;
+	margin-left: 0.4rem;
+}
+main .right .listr .dan{
+	/* background: red; */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+main .right .listr .dan .yuang{
+	width: 0.14rem;
+	height: 0.14rem;
+	border-radius: 50%;
+	background: #55f0e0;
+}
+main .right .listr .dan i{
+    font-size: 0.14rem;
+	color: #000000;
+	float: left;
+}
+main .jia{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: #2da0fc;
+    border: 0.02rem solid #55f0e0;
+    position: relative;
+}
+main .jia .heng{
+    width: 0.26rem;
+    height: 0.06rem;
+    border-radius: 0.03rem;
+    background: #fff;
+    position: absolute;
+    left: 0.1rem;
+    top: 0.2rem;
+}
+main .jia .shu{
+	width: 0.06rem;
+    height: 0.26rem;
+    border-radius: 0.03rem;
+    background: #fff;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.1rem;
+}
+footer{
+	width: 100%;
+	height: 1rem;
+	background: #ffffff;
+	box-shadow: 0 -0.05rem 0.1rem rgba(0, 0, 0, 0.3);
+	position: fixed;
+	left: 0;
+	bottom: 0; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.3rem;
+}
+footer .icon-48{
+	display: flex;
+	font-size: 0.64rem;
+	color: #2da0fc;
+}
+
+footer .shuzi{
+	width: 2rem;
+	height: 100%;
+	/* background: pink; */
+	margin-left: -2.5rem;
+	padding: 0.25rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+footer .shuzi .shang{
+	height: 0.22rem;
+	width: 1.34rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+footer .shuzi .shang  span{
+	font-size: 0.22rem;
+	color: #2da0fc;
+}
+footer .shuzi .shang b{
+	font-size: 0.16rem;
+	color: #000;
+}
+footer .shuzi .xia{
+	height: 0.22rem;
+	width: 1.34rem;
+	/* background: yellow; */
+}
+footer .shuzi .xia h3{
+	font-size: 0.16rem;
+	color: #989898;
+}
+footer .jiesuan{
+	height: 0.64rem;
+	width: 1.68rem;
+	border-radius: 0.32rem;
+	background: #2da0fc;
+	font-size: 0.3rem;
+	color: #fff;
+	padding: 0 0.24rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	/* margin-top: 0.2rem; */
+}
+footer .jiesuan .yyyyuuuu{
+	height: 0.16rem;
+	width: 0.16rem;
+	border-radius: 50%;
+	background: #fff;
+	border: 0.03rem solid #55f0e0;
+}
+.huise{
+	height: 1.9rem;
+	width: 7.5rem;
+	background: #dfdfdf;
+	position: absolute;
+	bottom: 1rem;
+	left: 0;
+	display: none;
+}
+footer .icon-48:active .huise{
+    display: block;
+}

@@ -1,0 +1,572 @@
+/*
+* @Author: wp
+* @Date:   2018-07-29 23:40:09
+* @Last Modified by:   wp
+* @Last Modified time: 2018-08-03 10:11:39
+*/
+header{
+	height: 0.9rem;
+	background: #2fa3fc;
+	padding-left: 0.3rem;	
+	padding-right: 0.3rem;
+	display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+header a{
+	text-decoration: none;
+}
+header .icon-icon-backward{
+	display: block;
+    font-size: 0.4rem;
+    color: #fff;
+    line-height: 0.9rem;
+}
+header .icon-shoucang1{
+	display: block;
+    font-size: 0.4rem;
+    color: #fff;
+    line-height: 0.9rem;
+}
+header h3{
+	font-size: 0.4rem;
+	color: #fff;
+	font-weight: 400;
+}
+.shang{
+	background: #2fa3fc;
+	padding: 0.04rem 0.24rem;
+	display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+.shang .neikuang{
+	background: white;
+}
+.shang .list{
+	margin-bottom:0.1rem; 
+	background: white;
+	padding: 0 0.3rem;
+    box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.shang .list .one{
+	width: 1rem;
+    height: 1rem;
+    /* background: black; */
+}
+.shang .list .one img{
+    width: 100%;
+    height: 1.06rem;
+}
+.shang .list .two{
+	width: 4rem;
+	height: 100%;
+	padding: 0.3rem 0;
+	/* background: red; */
+	display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.shang .list .two h3{
+    font-size: 0.26rem;
+    color: #000;
+}
+.shang .list .two .xia{
+	width: 4rem;
+	height: 0.32rem;
+	/* background: pink; */
+	display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.shang .list .two .xia .fuhao{
+	width: 1.3rem;
+	height: 0.32rem;
+	/* background: green; */
+	display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.shang .list .two .xia .fuhao .zuo{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background: #fff;
+    border: 0.01rem solid #999;
+    text-align: center;
+    line-height: 0.2rem;
+    font-size: 0.1rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.shang .list .two .xia .fuhao span{
+	display: block;
+	width: 0.52rem;
+	height: 0.26rem;
+	border-radius: 0.13rem;
+	border: 0.01rem solid #999;
+	background: #fff;
+	color: #000;
+	text-align: center;
+	line-height: 0.26rem;
+	font-size: 0.16rem;
+}
+.shang .list .two .xia .fuhao .you{
+	width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background: #fff;
+    border: 0.01rem solid #999;
+    text-align: center;
+    line-height: 0.2rem;
+    font-size: 0.1rem;
+    color: #000;
+     text-decoration: none;
+}
+
+ .shang .list .two .xia .right{
+ 	/* background: yellow; */
+ 	width: 1.8rem;
+ 	height: 0.32rem;
+ 	display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 0.2rem;
+ }
+ .shang .list .two .xia .right .yuan{
+ 	height:0.08rem;
+ 	width: 0.08rem;
+ 	border-radius: 50%;
+ 	background: blue;
+ 	border: 0.03rem solid #05e2cb;
+ }
+ .shang .list .two .xia .right h3{
+ 	font-size: 0.2rem;
+ 	color: blue;
+ 	margin-left: -0.2rem;
+ }
+ .shang .list .two .xia .right h4{
+ 	font-size: 0.12rem;
+ 	color: #000;
+ }
+ .shang .list .three{
+ 	height: 100%;
+ 	width: 0.5rem;
+ 	/* background: orange; */
+ 	display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 0 0.3rem;
+    border-left: 0.02rem dotted #999;
+ }  
+ .shang .list .three h3{
+ 	font-size: 0.12rem;
+ 	color: blue;
+ }
+.shang .list .three h4{
+ 	font-size: 0.16rem;
+ 	color: blue;
+ 	margin-top: 0.15rem;
+ }
+.zhong {
+	background: #2fa3fc;
+	padding: 0 0.24rem;
+	display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.zhong .left{
+	display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+.zhong .left h3{
+	font-size: 0.26rem;
+	color: #fff;
+	margin-top: 0.2rem;
+} 
+.zhong .left .xia{
+	display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-end;
+    margin-top: 0.2rem;
+}
+.zhong .left .xia span{
+	font-size: 0.63rem;
+	color: #fff;
+}
+.zhong .left .xia b{
+	font-size: 0.3rem;
+	color: #fff;
+	margin-bottom: 0.1rem;
+}
+.zhong .right{
+	display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+.zhong .right span{
+	font-size: 0.3rem;
+	color: #fff;
+	font-weight: 500;
+}
+.zhong .right p{
+	font-size: 0.24rem;
+	color: #fff;
+}
+.xiaa{
+	background: #2fa3fc;
+	padding: 0.24rem 0.24rem;
+	display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.xiaa .neikuang{
+	background: white;
+}
+.xiaa .list{
+	margin-top: 0.35rem;
+	/*width: 100%;*/
+	padding-right: 0.3rem;
+	padding-left: 0.3rem;
+	box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+}
+.xiaa .one{
+
+	/*background: white;*/
+	padding: 0.1rem 0.3rem;
+    box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+}
+.xiaa .one .shangg{
+	width: 1.6rem;
+	display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.xiaa .one .shangg .yuan{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 50%;
+	background: #fff;
+	border: 0.06rem solid blue;
+
+}
+.xiaa .one .shangg h3{
+
+	font-size: 0.24rem;
+	color: #000;
+	float: left;
+	margin-left: -0.2rem;
+}
+.xiaa .one h4{
+	font-size: 0.2rem;
+	color: #5caefa;
+	display: block;
+	margin-left: 0.3rem;
+}
+.xiaa .two{
+	padding: 0.1rem 0.3rem;
+    box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center; 
+}
+.xiaa .two .left{
+	width: 1.8rem;
+	display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.xiaa .two .left .yuan{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 50%;
+	background: #fff;
+	border: 0.06rem solid blue;
+
+}
+.xiaa .two .left h3{
+
+	font-size: 0.24rem;
+	color: #000;
+}
+.xiaa .two .right a{
+	width: 1.4rem;
+	height: 0.44rem;
+	border-radius: 0.22rem;
+	background: #3fc2f8;
+	display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center; 
+    text-decoration: none;
+    padding:0 0.1rem;
+}
+.xiaa .two .right a h3{
+	font-size: 0.24rem;
+	color: #fff;
+}
+.xiaa .two .right a .yuan{
+	width: 0.24rem;
+	height: 0.24rem;
+	border-radius: 0.12rem;
+	background: #fff;
+}
+.xiaa .three{
+	padding: 0.1rem 0.3rem;
+    box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center; 
+}
+.xiaa .three .left{
+	width: 1.8rem;
+	display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.xiaa .three .left .yuan{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 50%;
+	background: #fff;
+	border: 0.06rem solid blue;
+}
+.xiaa .three .left h3{
+
+	font-size: 0.24rem;
+	color: #000;
+	float: left;
+	margin-left: -0.2rem;
+}
+
+.xiaa .three a{
+	width: 1.4rem;
+	height: 0.44rem;
+	border-radius: 0.22rem;
+	background: #fff;
+	border: 0.01rem solid #000;
+    padding:0 0.1rem;
+    font-size: 0.24rem;
+    color: #3fc2f8;
+    text-decoration: none;
+    text-align: center;
+    line-height: 0.44rem;
+}
+.xiaa .four{
+
+	/*background: white;*/
+	padding: 0.1rem 0.3rem;
+    box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.xiaa .four .shangg{
+	width: 1.3rem;
+	display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.xiaa .four .shangg .yuan{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 50%;
+	background: #fff;
+	border: 0.06rem solid blue;
+
+}
+.xiaa .four .shangg h3{
+
+	font-size: 0.24rem;
+	color: #000;
+	float: left;
+	margin-left: -0.2rem;
+}
+.xiaa .four  p{
+	font-size: 0.2rem;
+	color: #000;
+	display: block;
+	margin-left: 0.3rem;
+}
+.xiaa .four .zzzz{
+    height: 0.48rem;
+    width: 0.48rem;
+    border-radius: 0.24rem;
+    border: 0.01rem solid #000;
+    text-align: center;
+    line-height: 0.48rem;
+    color: #999;
+    font-size: 0.28rem;
+   
+}
+.xiaa .four .zzzz a{
+	 text-decoration: none;
+}
+.xiaa .five{
+	padding: 0.1rem 0.3rem;
+    box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center; 
+}
+.xiaa .five .left{
+	width: 1.3rem;
+	display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.xiaa .five .left .yuan{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 50%;
+	background: #fff;
+	border: 0.06rem solid blue;
+}
+.xiaa .five .left h3{
+
+	font-size: 0.24rem;
+	color: #000;
+	float: left;
+	margin-left: -0.2rem;
+}
+.xiaa .five a{
+	width: 1.4rem;
+	height: 0.44rem;
+	border-radius: 0.22rem;
+	background: #fff;
+	border: 0.01rem solid #000;
+    padding:0 0.1rem;
+    font-size: 0.24rem;
+    color: #3fc2f8;
+    text-decoration: none;
+    text-align: center;
+    line-height: 0.44rem;
+}
+.xiaa .six{
+	padding: 0.1rem 0.3rem;
+    box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center; 
+}
+.xiaa .six .left{
+	width: 1.05rem;
+	display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.xiaa .six .left .yuan{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 50%;
+	background: #fff;
+	border: 0.06rem solid blue;
+}
+.xiaa .six .left h3{
+	font-size: 0.24rem;
+	color: #000;
+	float: left;
+	margin-left: -0.2rem;
+}
+
+.xiaa .six p{
+	/*width: 1.4rem;
+	height: 0.44rem;
+	border-radius: 0.22rem;
+	background: #fff;
+	border: 0.01rem solid #000;*/
+    padding:0 0.1rem;
+    font-size: 0.24rem;
+    color: #000;
+   /* text-decoration: none;
+    text-align: center;
+    line-height: 0.44rem;*/
+}
+.xiaa .seven{
+	padding: 0.1rem 0.3rem;
+    box-shadow: 0 0 0.05rem 0.03rem rgba(0, 0, 0, 0.3);
+}
+.xiaa .seven .shangg{
+	width: 2rem;
+	display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.xiaa .seven .shangg .yuan{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 50%;
+	background: #fff;
+	border: 0.06rem solid blue;
+}
+.xiaa .seven .shangg h3{
+
+	font-size: 0.24rem;
+	color: #000;
+	float: left;
+	margin-left: -0.2rem;
+}
+.xiaa .seven  p{
+	font-size: 0.2rem;
+	color: #000;
+	display: block;
+	margin-left: 0.3rem;
+}
+.xiaa .eight{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.1rem 1.72rem;
+}
+.xiaa .eight a{
+    width: 3.48rem;
+    height: 0.7rem;
+    border-radius: 0.35rem;
+    background: #3fc2f8;
+    text-decoration: none;
+    padding:0 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.xiaa .eight .yuan{
+	width: 0.03rem;
+	height: 0.03rem;
+	border-radius: 50%;
+	background: #fff;
+	border: 0.03rem solid blue;
+}
+.xiaa .eight h3{
+	color: #fff;
+    font-size: 0.28rem;
+}
+ 

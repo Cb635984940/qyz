@@ -1,0 +1,328 @@
+
+* @Author: wp
+* @Date:   2018-07-24 17:00:43
+* @Last Modified by:   wp
+* @Last Modified time: 2018-08-03 13:08:24
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+/* 顶部开始 */
+header{
+	width: 100%;
+	height: 2.89rem;
+	background: #299bfc;
+}
+header .pos{
+	width: 1.85rem;
+	height: 100%;
+	/* background: red; */
+	float: left;
+	margin-left: 0.47rem;
+	color: white;
+	font-size:0.22rem;
+	text-align: center;
+	line-height: 0.89rem;
+    position: relative;
+}
+header .pos i{
+	margin-right: 0.05rem;
+	font-size: 0.22rem;
+	color: white;
+}
+header .search{
+	width: 2.29rem;
+	height: 0.45rem;
+	background: #66d0ff;
+	float: left;
+	margin-left: 2rem;
+	margin-top: 0.23rem;
+	border-radius: 0.22rem;
+    border: none;
+   /*  background: #fff; */
+    outline: none;
+    background-image: url('../img/a.png');
+    background-size: 0.32rem 0.32rem;
+    background-repeat: no-repeat;
+    background-position: 0.1rem center;
+    padding-left: 0.57rem;
+    /* 输入文字的颜色 */
+    color: white;
+    font-size: 0.22rem;
+}
+    /* 改变input中提示性文字的样式 */
+    ::-webkit-input-placeholder{
+    	color: #299bfc;
+    	font-size: 0.22rem;
+    }
+header .banner{
+	height: 3rem;
+	width: 6.2rem; 
+    background: red;
+    position: absolute;
+    left:0.66rem;
+    top: 1.1rem;
+    background-image: url('../img/b.png');
+    background-size: 100% 100%;
+    border-radius: 5%;
+}
+header .banner:hover{
+	transform: translateY(-0.05rem);
+	box-shadow: 0 0 0.15rem 0.3rem rgba(0, 0, 0, 0.1)
+}
+header .bannerdian{
+    height: 0.15rem;
+    width: 0.9rem;
+    position: absolute;
+	left: 3.3rem;
+	top: 4.34rem;
+}
+header .bannerdian .dot{
+	height: 0.14rem;
+	width: 0.14rem;
+	border-radius: 0.07rem;
+	float: left;
+	margin-right: 0.24rem;
+	background: #f8f7b3;
+}
+header .bannerdian .dot:nth-child(3){
+	margin-right: 0;
+}
+header .bannerdian .dot:nth-child(1){
+	background: #00ffff;
+}
+nav{
+	width: 6.4rem;
+	height: 3rem;
+	/* background: blue; */
+	margin: 0 auto;
+	margin-top: 2rem;
+	font-size: 0.25rem;
+	text-align: center;
+	color: #000000;
+}
+nav a{
+	color: black;
+}
+nav li{
+	width: 1rem;
+	height: 1.4rem;
+	/* background: pink; */
+	float: left;
+	list-style: none;
+	margin-bottom:0.2rem;
+	margin-right: 0.8rem; 
+}
+nav li:nth-child(4){
+	margin-right: 0rem;
+}
+nav li:nth-child(8){
+	margin-right: 0rem;
+}
+.dong{
+	height: 8rem;
+	width: 100%;
+	/* background: yellow; */
+	overflow: scroll;
+}
+main{
+    width: 6.4rem;
+    height: auto;
+    /* background: pink; */
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+main .shang{
+    width: 6.4rem;
+    height: 1.2rem;
+   /*  background: red; */
+    padding-top: 0.3rem;
+}
+main .shang .left{
+	width: 0.1rem;
+	height: 0.8rem;
+	border-radius: 0.35rem; 
+	background: #4bc6fe;
+	float: left;
+}
+main .shang .right{
+	width: 2.8rem;
+	height: 0.8rem; 
+	/* background: yellow; */
+	margin-left: 0.2rem;
+	float: left;
+}
+main .shang .right .sh{
+    height: 0.3rem;
+    width: 2.78rem;
+}
+main .shang .right .sh h3{
+	font-size: 0.3rem;
+	display: block;
+	float: left;
+	line-height: 0.3rem;
+}
+main .shang .right .sh .yuan{
+	height: 0.1rem;
+	width: 0.1rem;
+	border-radius: 0.1rem;
+	background: #4bc6fe;
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.1rem;
+}
+main .shang .right .sh h4{
+	font-size: 0.3rem;
+	display: block;
+	float: left;
+	line-height: 0.3rem;
+	margin-left: 0.08rem;
+	font-weight: 400;
+}
+main .shang .right .xi{
+	font-size: 0.3rem;
+}
+main .xia{
+	height: 11.6rem;
+	width: 6.42rem;
+	margin: 0 auto;
+	padding-bottom: 1rem;
+	/* background: red; */
+}
+
+main .xia li{
+	height: 2.7rem;
+	width: 6.42rem;
+	/* background: blue; */
+	list-style: none;
+	margin-bottom: 0.2rem;
+	position: relative;
+	box-shadow: 0 0 0.02rem 0.15rem rgba(0, 0, 0, 0.1); 
+	border-radius: 0.2rem;
+}
+main .xia li .shangg{
+	height: 2rem;
+	width: 6.42rem;
+	/* background: orange; */
+    position:absolute;
+    left: 0;
+    top:0.2rem;
+}
+main .xia li .shangg .left{
+	height: 2rem;
+	width: 2.5rem;
+/* 	background: red; */
+	float: left;
+}
+main .xia li .shangg .left img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+main .xia li .shangg .right{
+	height: 2rem;
+	width: 3.5rem;
+	/* background: red; */
+	float: left;
+	margin-left: 0.4rem;
+	padding-top: 0.3rem;
+	box-sizing: border-box;
+}
+main .xia li .shangg .right h1{
+	font-size: 0.28rem;
+	font-weight: 700;
+	color: #000000;
+}
+main .xia li .shangg .right h2{
+	font-size: 0.26rem;
+	font-weight: 600;
+	color: #000000;
+}
+main .xia li .shangg .right h3{
+	font-size: 0.22rem;
+	font-weight: 400;
+	color: #8d8d8d;
+}
+main .xia li .shangg .right h4{
+	font-size: 0.22rem;
+	font-weight: 400;
+	color: #8d8d8d;
+}
+main .xia li .xiaa{
+	height: 0.4rem;
+	width: 6rem;
+	/* background: red; */
+	position:absolute;
+    left: 0.2rem;
+    bottom: 0.05rem;
+    border-top: 0.02rem dotted black;
+    display: flex;
+    justify-content:space-between;
+}
+main .xia li .xiaa .tubiao{
+	height: 0.4rem;
+	width: 1.7rem;
+	/* background: yellow; */
+	display: flex;
+	justify-content: flex-start;
+	font-size: 0.22rem;
+	padding-top: 0.05rem;
+	box-sizing: border-box;
+	color: #8d8d8d;
+}
+main .xia li .xiaa .tubiao img{
+	height: 0.22rem;
+	width: 0.22rem;
+	margin-top: 0.05rem;
+}
+main .xia li .xiaa .tubiao span{
+	font-size: 0.22rem;
+	color: #8d8d8d;
+}
+main .xia .bao{
+	height: 1rem;
+	width: 100%;
+}
+footer{
+	width: 100%;
+    height: 1rem;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 -0.15rem 0.3rem rgba(0, 0, 0, 0.1);
+}
+footer  a{
+	width: 0.8rem;
+	height: 0.8rem;
+	border-radius: 50%;
+	background: #e1d5d5;
+	color: #ea6621;
+	margin-top: 0.1rem;
+}
+footer .list:nth-child(1){
+	background: blue;
+}
+footer .list i{
+	font-size: 0.4rem;
+    display: block;
+	text-align: center;
+	line-height: 0.8rem;
+	color: #5a5555;
+}
+footer .list:nth-child(1) i{
+	color: white;
+}

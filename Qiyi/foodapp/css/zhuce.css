@@ -1,0 +1,260 @@
+/*
+* @Author: wp
+* @Date:   2018-08-01 19:02:30
+* @Last Modified by:   wp
+* @Last Modified time: 2018-08-04 11:51:11
+*/
+/*
+* @Author: wp
+* @Date:   2018-08-01 18:46:21
+* @Last Modified by:   wp
+* @Last Modified time: 2018-08-02 07:34:15
+*/
+*{
+	/* 外边距 */
+	margin: 0;
+	/* 内边距 */
+	padding: 0;
+	/* 去掉列表的标识样式 */
+	list-style: none;
+	/* 字体 */
+	font-family: "微软雅黑","宋体","苹方";
+	/* 盒子大小 */
+	box-sizing: border-box;
+	/* 去掉下划线 */
+	text-decoration: none;
+	/* 文字样式：正常 */
+	font-style: normal;
+}
+body{
+	background-image: url('../img/b63d213f29b542c2cafdbd25e185301ac2448b296a539-KKOxXs_fw658.jpg');
+	background-size: 100%,100%;
+	padding-left: 1.24rem;
+}
+.top{
+	width: 100%;
+	height: 1.2rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.3rem;
+}
+.top .left{
+	width: 0.7rem;
+	height: 0.7rem;
+	background:#fff;
+	margin-top: 0.3rem;
+	margin-left: 0.26rem;
+	font-size: 2rem;
+	display: flex;
+	border-radius: 0.35rem;
+	justify-content: center;
+	align-items: center;
+	color: #000;
+	margin-left: -1.1rem;
+}
+.top .right{
+	width: 1.29rem;
+	height: 0.7rem;
+	border-radius: 0.35rem;
+	background: #fff;
+	margin-top: 0.4rem;
+    margin-right: 0.2rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.7rem;
+}
+
+header h1{
+	font-size: 0.54rem;
+	color: #000;
+	font-weight: 700;
+	margin-top: 1.4rem;
+}
+header h2{
+	font-size: 0.26rem;
+	color: #000;
+	font-weight: 400;
+	margin-top: 0.36rem;
+}
+header h3{
+	font-size: 0.26rem;
+	color: #000;
+	font-weight: 400;
+}
+input{outline:none;}
+input{border:none;}
+::-webkit-input-placeholder{
+    	color: #299bfc;
+    	font-size: 0.22rem;
+    }
+
+main{
+    width: 6.28rem;
+    height: 6.4rem;
+    padding-left: 0.36rem;
+    padding-right: 0.36rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.4rem;
+    background: rgba(201, 221, 224, 0.9);
+    position: absolute;
+    right: 0;
+    top: 4.66rem;	
+}
+main h1{
+	font-size: 0.18rem;
+	color: #000;
+}
+main .box1{
+	width: 5.1rem;
+	height: 0.8rem;
+	border-radius: 0.4rem;
+	border: 1px solid #000;
+	margin-top: 0.26rem;
+	position: relative;
+}
+main .box1 .kuang1{
+	width: 4rem;
+	position: absolute;
+	top: 0.15rem;
+	left: 0.9rem;
+    height: 0.5rem;
+    background: rgba(255,255,255,0);
+}
+main .box1  i{
+	font-size: 0.4rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 0.3rem;
+}
+::-webkit-input-placeholder{
+    	color: #299bfc;
+    	font-size: 0.22rem;
+    }
+main h3{
+	font-size: 0.18rem;
+	color: #000;
+	margin-top: 0.56rem;
+}
+main .zhong{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+main .zhong .box2{
+	width: 3.1rem;
+	height: 0.8rem;
+	border-radius: 0.4rem;
+	border: 1px solid #000;
+	position: relative;
+    margin-top: 0.26rem;
+}
+main .zhong .box2 .kuang2{
+	width: 2rem;
+	position: absolute;
+	top: 0.15rem;
+	left: 0.9rem;
+    height: 0.5rem;
+    background: rgba(255,255,255,0);
+}
+input{outline:none;}
+input{border:none;}
+main .zhong .box2  i{
+	font-size: 0.5rem;
+	position: absolute;
+	top: 0.16rem;
+	left: 0.3rem;
+}
+main .zhong .yuan{
+	height: 0.4rem;
+	width: 1.58rem;
+	border-radius: 0.2rem;
+	background: #00a0e9;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.2rem;
+	margin-top: 0.2rem;
+}
+main .zhong .yuan .yuan1{
+	height: 0.1rem;
+	width: 0.1rem;
+	border-radius: 50%;
+	background: #fff;
+}
+main .zhong .yuan h3{
+    display: block;
+    margin-top: 0rem;
+    font-size: 0.2rem;
+    color: #fff;
+}
+main .zhong .yuan .yuan2{
+	height: 0.1rem;
+	width: 0.1rem;
+	border-radius: 50%;
+	background: #fff;
+}
+main .box3{
+	margin-top: 0.4rem;
+	position: absolute;
+	bottom:  0.15rem;
+	left: 0.4rem;
+}
+main .box3 i{
+    font-size: 0.2rem;
+    color: blue;
+}
+main .box3 b{
+   font-size: 0.24rem;
+   color: #000;
+   margin-left: 0;	
+}
+main h4{
+	font-size: 0.18rem;
+	color: #000;
+	margin-top: 0.5rem;
+}
+main .box3{
+	width: 5.1rem;
+	height: 0.8rem;
+	border-radius: 0.4rem;
+	border: 1px solid #000;
+	margin-top: 0.35rem;
+	margin-left: -0.4rem;
+	position: relative;
+}
+main .box3 .kuang3{
+	width: 4rem;
+	position: absolute;
+	top: 0.15rem;
+	left: 0.9rem;
+    height: 0.5rem;
+    background: rgba(255,255,255,0);
+}
+input{outline:none;}
+input{border:none;}
+main .box3  i{
+	color: #000;
+	font-size: 0.4rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 0.3rem;
+}
+nav h3{
+	margin-top: 7.4rem;
+	font-size: 0.22rem;
+	color: #000;
+	width: 6.2rem;
+	height: 1rem;
+	text-align: center;
+	line-height: 1rem;
+	border: 0.01rem solid #999;
+	background: rgba(255,255,255,0.5);
+}
+footer h3{
+	font-size: 0.24rem;
+	color: #000;
+	text-align: center;
+	line-height: 1rem;
+}
